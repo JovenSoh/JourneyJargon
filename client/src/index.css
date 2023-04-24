@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.upload-image-container.drag-active {
+    @apply border-green-500;
+}
+
+.upload-image-container.drag-inactive {
+    @apply border-gray-500;
+}
+
+.menu-card {
+    @apply bg-green-700 text-white p-4 rounded shadow-lg mb-4;
+}
+
+.menu-card-name {
+    @apply text-xl font-bold;
+}
+
+.menu-card-description {
+    @apply text-sm italic;
+}
+
+.menu-card-price {
+    @apply text-lg font-semibold;
+}
+
+.menu-card-quantity {
+    @apply flex justify-end items-center mt-2;
+}
+
+.menu-card-quantity-button {
+    @apply bg-green-600 text-white px-3 py-1 rounded;
+}
+
+.order-speech-bubble {
+    @apply bg-green-600 text-white p-4 rounded-lg shadow-lg;
+    @apply mt-4 mb-4 mx-auto;
+    max-width: 300px;
+}
